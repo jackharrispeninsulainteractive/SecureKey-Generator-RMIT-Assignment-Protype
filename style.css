@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body main {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    min-height: 100vh;
+    padding-top: 64px;
+}
+
+body main section h1{
+    text-align: center;
+}
+
+body #you{
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: -10px 20px 20px 20px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+body #you h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+body #you img{
+    width: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+body #you .user-name{
+    text-align: center;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+body #oracle_members{
+    top:0;
+    width: 200px;
+    background-color: #fdfbfb;
+    height: 100vh;
+    position: fixed;
+    color: #2a2a2a;
+    left: calc(100% - 200px);
+    overflow: scroll;
+    box-shadow: -10px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+body #oracle_members::-webkit-scrollbar{
+    display: none;
+}
+
+body #oracle_members h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+body #oracle_members div{
+    margin: 32px;
+}
+
+body #oracle_members div img{
+    width: 128px;
+}
+
+body #oracle_members div .user-name{
+    text-align: center;
+    color: #2a2a2a;
+    font-weight: bold;
+}    *{
+         padding: 0;
+         margin: 0;
+         font-family: 'Poppins', sans-serif;
+     }
+
+body main {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    min-height: 100vh;
+}
+
+body main section h1{
+    text-align: center;
+}
+
+body main section form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    padding: 64px 32px 32px;
+    width: 50%;
+}
+
+body main section form h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body main section form label{
+    width: 100%;
+    margin: auto;
+    padding: 8px;
+}
+
+body main section form label input{
+    width: inherit;
+    padding: 8px;
+    border-color: #00b9ff;
+    border-style: solid;
+}
+
+body main section form button{
+    padding: 8px;
+    margin: 8px;
+    background-color: #00b9ff;
+    border-radius: 10px;
+    color: white;
+    border-color: #00b9ff;
+}
+
+
+body main section form button:hover{
+    cursor: pointer;
+}
+
+body #you{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: -10px 20px 20px 20px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+body #you h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+body #you img{
+    width: 128px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+body #you .user-name{
+    text-align: center;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+body #oracle_members{
+    top:0;
+    width: 200px;
+    background-color: #fdfbfb;
+    height: 100vh;
+    position: absolute;
+    color: #2a2a2a;
+    left: calc(100% - 200px);
+    overflow: scroll;
+    box-shadow: -10px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+body #oracle_members::-webkit-scrollbar{
+    display: none;
+}
+
+body #oracle_members h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+body #oracle_members div{
+    margin: 32px;
+}
+
+body #oracle_members div img{
+    width: 128px;
+}
+
+body #oracle_members div .user-name{
+    text-align: center;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+body footer{
+    width: 100%;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+body footer p{
+    text-align: center;
+    padding: 32px;
+}
+
+body #requesting_access_permission{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+body #requesting_access_permission #inner{
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    padding: 32px;
+    margin-top: -128px;
+}
+
+body #requesting_access_permission #inner #member_approval{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+body #requesting_access_permission #inner #member_approval div img{
+    height: 128px;
+}
+
+body #requesting_access_permission #inner #member_approval div p{
+    text-align: center;
+}
+
+button{
+    padding: 8px;
+    margin: 8px;
+    background-color: #00b9ff;
+    border-radius: 10px;
+    color: white;
+    border-color: #00b9ff;
+}
+
+
+button:hover{
+    cursor: pointer;
+}

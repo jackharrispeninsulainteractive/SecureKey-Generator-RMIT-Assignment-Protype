@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "name": "Chris Lee",
+      "role": "Information Security Manager",
+      "image": "/images/user-1.png",
+      "code":  940103
+    },
+    {
+      "name": "James Jackson",
+      "role": "Information Security Director",
+      "image": "/images/user-2.png",
+      "code":  654273
+    },
+    {
+      "name": "Harry David",
+      "role": "Chief Information Security Officer",
+      "image": "/images/user-3.png",
+      "code":  409519
+    }
+  ]
+
+}
